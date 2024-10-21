@@ -13,6 +13,7 @@ body{
     justify-content: center; 
     align-items: center;
     flex-direction: column; */
+    max-width: 250px;
     background-color: aliceblue;
     padding: 20px;
     border-radius: 15px;
