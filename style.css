@@ -6,13 +6,17 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    font-family: "Figtree", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: large;
+    font-weight: 90000;
 }
 
 .wrapper{
-    /* display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column; */
     max-width: 250px;
     background-color: aliceblue;
     padding: 20px;
@@ -24,4 +28,32 @@ body{
 .wrapper #svg{
     width: 250px;
     border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.wrapper p{
+    font-size: small;
+}
+
+.wrapper a{
+    background-color: rgb(249, 233, 84);
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-weight: 90000;
+}
+
+#profile {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#profile img{
+    height: 40px;
 }
