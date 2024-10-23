@@ -16,6 +16,10 @@ h1{
     font-weight: 90000;
 }
 
+h1:hover{
+    color: rgb(249, 233, 84);
+}
+
 .wrapper{
     max-width: 250px;
     background-color: aliceblue;
